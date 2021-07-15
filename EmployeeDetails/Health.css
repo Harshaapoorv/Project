@@ -1,0 +1,32 @@
+body,head,header,footer,section,a,nav,
+li,ul,progress,html,details,summary,img,
+p,h1,h2,meta,title,label{
+	padding:0px;
+	border:0px;
+	margin:0px;
+}
+
+
+header{
+    height:5%;
+    width:100%;
+    position:absolute;
+    background:#63d9f7;
+    text-align: left;
+    padding-top:1%;
+    padding-left:none;
+}
+
+header a{
+    width:5%;
+    margin-left:1%;
+    text-decoration:none;
+    color:#000000;
+}
+
+#main{
+    text-align: right;
+    padding-right:none;
+    margin-top:none;
+    position:relative;
+}

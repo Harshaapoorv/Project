@@ -1,0 +1,31 @@
+body,head,header,footer,section,a,nav,
+li,ul,progress,html,details,summary,img,
+p,h1,h2,meta,title,label{
+	padding:0px;
+	border:0px;
+	margin:0px;
+}
+
+body{
+    background-color:#63d9f7;
+}
+
+main{
+    width : 40%;
+    height : 90%;
+    margin-top:10%;
+    margin-left:28%;
+    background-color:#63d9f7;
+    background-image:url("Employee.png");
+}
+
+input{
+    padding:1%;
+    margin:1%;
+    align-items:right;
+    margin-left:25%;
+}
+
+b{
+    padding:20px;
+}
