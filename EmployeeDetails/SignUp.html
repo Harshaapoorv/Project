@@ -9,7 +9,7 @@
         <main>
             <h1 style = "text-align:center">SignUp</h1>
             <br>
-            <form method = "post">
+            <form method = "post" action = "signup.jsp">
                 <b>Enter Name:</b>
                 <input type = "text" name = "name" placeholder = "Name"/>
                 <br>
@@ -19,11 +19,17 @@
                 <b>Enter Employee ID:</b>
                 <input type = "text" name = "empid" placeholder = "EmpID" style = "margin-left:15%;"/>
                 <br>
+                <b>Password:</b>
+                <input type = "password" name = "password" style = "margin-left:28%;"/>
+                <br>
+                <b>Confirm Password:</b>
+                <input type = "password" name = "password" style = "margin-left:16%;"/>
+                <br>
                 <b>Enter Email:</b>
                 <input type = "email" name = "mail"/>
                 <br>
                 <b>Enter MobileNo:</b>
-                <input type = "number" name = "mobile" placeholder = "Mobileno." style = "margin-left:20%;"/>
+                <input type = "text" name = "mobile" placeholder = "Mobileno." style = "margin-left:20%;"/>
                 <br>
                 <b>Enter Degree:</b>
                 <input type = "text" name = "degree" placeholder = "B.Tech" style = "margin-left:24%;"/>
@@ -43,7 +49,9 @@
                 <b>Gender:</b>
                 <input type="radio" name="gender" value="male" checked style = "margin-left:33%;"> Male
                 <input type="radio" name="gender" value="female" style = "margin-left:5%;"> Female<br>
-                <input type = "button" value = "SignUp" style = "margin-left:45%"/>
+                <input type = "submit" value = "SignUp" style = "margin-left:45%"/>
+                <button style = "margin-left:2%;display:inline-block"><a href = "HomePage.html" style = "text-decoration:none">Back</a></button>
+                <p style = "margin-left:8%;padding-bottom: 1%;color:aqua;">Already have an account <a href = "Login.html" style = "text-decoration:none; color:blue">Login</a> here.</p>
             </form>
         </main>
     </body>
