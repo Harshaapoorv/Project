@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang  = "en">
+    <head>
+        <meta charset="UTF-8">
+		<title>Projects</title>
+        <link rel="stylesheet" href="Projects1.css">
+    </head>
+    <body>
+        <header>
+            <a href = "Profile.html" style = "display:inline-block"><b>Profile</b></a>
+            <a href = "Attendance.html" style = "display:inline-block"><b>Attendance</b></a>
+            <a href = "Statistics.html" style = "display:inline-block; margin-left:2%"><b>Statistics</b></a>
+            <a href = "PaySlip.html" style = "display:inline-block"><b>PaySlip</b></a>
+            <a href = "Projects.html" style = "display:inline-block"><b>Projects</b></a>
+            <a href = "Health.html" style = "display:inline-block"><b>Health</b></a>
+            <a href = "HomePage.html" style = "display:inline-block; margin-left:50%" id = "home"><button>Logout</button></a>
+        </header>
+        <section>
+            <form method = "post">
+                <i><h1 style = "background-color: #63d9f7;text-align:center; padding-top:none; size:200%;">Projects</h1></i>
+                <b>Name of Project:</b>
+                <input type = "text" name = "nameofproj" style = "margin-top:10%;"/>
+                <br>
+                <b>Client Company:</b>
+                <input type = "text" name = "client" style = "margin-left:23%;"/>
+                <br>
+                <b>Project Description:</b>
+                <textarea id = "desc" name = "description" rows = 5 columns = 50 style = "margin-left:18%;"></textarea>
+                <br>
+                <b>Batchmate Names:</b>
+                <textarea id = "team" name = "teams" rows = 4 columns = 500 style = "margin-left:20%;"></textarea>
+                <br>
+                <b style = "margin-top:2%;">Deadline:</b>
+                <input type = "date" name = "deadline" style = "margin-left:35%;"/>
+                <br>
+                <b>Tools:</b>
+                <input type = "text" name = "tools" style = "margin-left:41%;"/>
+                <br>
+                <b>Expected Profit</b>
+                <input type = "text" name = "profit" style = "margin-left:26%;"/>
+                <br>
+                <b>Investment</b>
+                <input type = "text" name = "invest" style = "margin-left:32%;"/>
+                <br>
+                <input type = "submit" name = "Submit" value = "Submit" id = "submit" style = "margin-top:10%; margin-left:40%; width:20%; height:8%;"/>
+                <button style = "margin-left:3%; color:#63d9f7;"><a href = "Projects.html" style = "text-decoration:none;color:black;">Back</a></button>
+            </form>
+        </main>
+    </body>
+</html>

@@ -6,16 +6,43 @@ p,h1,h2,meta,title,label{
 	margin:0px;
 }
 
+
+header{
+    height:5%;
+    width:100%;
+    position:absolute;
+    background:#63d9f7;
+    text-align: left;
+    padding-top:1%;
+    padding-left:none;
+}
+
+header a{
+    width:5%;
+    margin-left:1%;
+    text-decoration:none;
+    color:#000000;
+}
+
+#home{
+    text-align: right;
+    padding-right:none;
+    margin-top:none;
+    position:relative;
+}
+
 body{
-    background-color:#63d9f7;
+    /* background-color:#63d9f7; */
+    width:none;
 }
 
 main{
     width : 40%;
-    height : 90%;
+    height : 80%;
     margin-top:8%;
     margin-left:30%;
-    background-color:#63d9f7;
+    /* background-color:#63d9f7; */
+    position:absolute;
     background-image:url("Employee.png");
 }
 
