@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang  = "en">
+    <head>
+        <meta charset="UTF-8">
+		<title>Health</title>
+        <link rel="stylesheet" href="updatehealth.css">
+    </head>
+    <body>
+        <header>
+            <a href = "Profile.html" style = "display:inline-block"><b>Profile</b></a>
+            <a href = "Attendance.html" style = "display:inline-block"><b>Attendance</b></a>
+            <a href = "Statistics.html" style = "display:inline-block; margin-left:2%"><b>Statistics</b></a>
+            <a href = "PaySlip.html" style = "display:inline-block"><b>PaySlip</b></a>
+            <a href = "Projects.html" style = "display:inline-block"><b>Projects</b></a>
+            <a href = "Health.html" style = "display:inline-block"><b>Health</b></a>
+            <a href = "HomePage.html" style = "display:inline-block; margin-left:50%" id = "home"><button>Logout</button></a>
+        </header>
+        <section>
+        <form method = "post">
+            <i><h1 style = "background-color: #63d9f7;text-align:center; padding-top:none; size:200%;">Health Update</h1></i>
+            <b>Employee Name:</b>
+            <input type = "text" name = "empname" style = "margin-top:10%;margin-left:28%;"/>
+            <br>
+            <b>Employee ID:</b>
+            <input type = "text" name = "empid" style = "margin-left:32%;"/>
+            <br>
+            <b>Department Name:</b>
+            <input type = "text" name = "dept" style = "margin-left:25%;"/>
+            <br>
+            <b>Year of Joining:</b>
+            <input type = "date" name = "year" style = "margin-left:30%;"/>
+            <br>
+            <b>Any Particular Health Issues? Explain in detail</b>
+            <textarea id = "desc" name = "description" rows = 8 columns = 50 style = "width:80%;margin-left:1%;"></textarea>
+            <br>
+            <b>Marital Status:</b>
+            <input type = "radio" id = "married" name = "marriage" value = "married" style = "margin-left:8%;"/>
+            <label for = "married">Married</label>
+            <input type = "radio" id = "unmarried" name = "marriage" value = "unmarried" style = "margin-left:1;"/>
+            <label for = "unmarried">UnMarried</label>
+            <br>
+            <b>Gender:</b>
+            <input type = "radio" id = "male" name = "gender" value = "male" style = "margin-left:18%;"/>
+            <label for = "male">Male</label>
+            <input type = "radio" id = "female" name = "gender" value = "female" style = "margin-left:5%;"/>
+            <label for = "female">Female</label>
+            <br>
+            <b>Number of Family Members:</b>
+            <input type = "number" name = "family" style = "margin-left:13%;"/>
+            <br>
+            <b>Salary:</b>
+            <input type = "text" name = "salary" style = "margin-left:42%;"/>
+            <br>
+            <input type = "checkbox" name = "terms" value = "terms" id = "terms" style = "display:inline-block;margin-left:8%;"/>
+            <label for = "terms">Company's policy to get Health benefits</label>
+            <input type = "submit" name = "Submit" value = "Submit" id = "submit" style = "margin-top:10%; margin-left:40%; width:20%; height:8%;"/>
+            <button style = "margin-left:3%; color:#63d9f7;"><a href = "Health.html" style = "text-decoration:none;color:black;">Back</a></button>
+        </form>
+    </section>
+    </body>
+</html>
